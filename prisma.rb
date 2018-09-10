@@ -12,6 +12,6 @@ class Prisma < Formula
   end
 
   def post_install
-    system "prisma", "init-prisma"
+    system "#{Formula["prisma"]}", "init-prisma"
   end
 end
