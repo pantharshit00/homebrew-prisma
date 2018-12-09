@@ -1,9 +1,10 @@
+
 class Prisma < Formula
   desc "Prisma turns your database into a realtime GraphQL API"
   homepage "https://github.com/prisma/prisma"
-  url "https://s3-eu-west-1.amazonaws.com/homebrew-prisma/prisma-1.22.0.patch.1.tar.gz"
-  sha256 "052cc310ab3eae8277e4d6fbf4848bc5c518af8e5165217a384bc26df82e63b9"
-  version "1.22.0.patch.1"
+  url "https://s3.eu-west-2.amazonaws.com/esoplan/prisma-1.22.2.tar.gz"
+  sha256 "be0e100eb112a3372da8741dee96c8e3cae7ab8cad48d086f932b515b7b6988c"
+  version "1.22.2"
 
   bottle :unneeded
 
@@ -11,5 +12,4 @@ class Prisma < Formula
     bin.install "prisma"
   end
 end
-
-
+  
